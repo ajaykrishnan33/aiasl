@@ -1,0 +1,2 @@
+release: python manage.py migrate
+web: ./pyenv/bin/python manage.py runserver 0.0.0.0:$PORT
