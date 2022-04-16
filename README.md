@@ -13,7 +13,7 @@ $ source pyenv/bin/activate
 DATABASE_URL=sqlite:////home/ajay/git/aiasl/db.sqlite3
 PORT=5000
 ```
-2. `heroku local -f Procfile.test`
+2. `heroku local web -f Procfile.test`
 3. For running migrations, do:
 ```sh
 $ heroku local:run ./pyenv/bin/python manage.py migrate
