@@ -20,6 +20,9 @@ $ heroku local:run ./pyenv/bin/python manage.py migrate
 ```
 
 ## Production deployment
+
+If not logged in, first do `heroku login`.
+
 1. `$ git push heroku main`
 2. Go to https://aiasl.herokuapp.com
 3. For running migrations do:
